@@ -28,3 +28,6 @@ echo -e "\nDirectory traversal: cyber-js"
 
 echo -e "\nDirectory traversal: xtalk"
 ./directory-traversal/xtalk/PoC.sh
+
+echo -e "\nDirectory traversal: easyquick"
+./directory-traversal/easyquick/PoC.sh
