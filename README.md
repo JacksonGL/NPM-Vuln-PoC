@@ -10,6 +10,12 @@ To reproduce the vulnerabilites, first install the vulnerable packages:
 npm install
 ```
 
+The following vulnerable packages require global install or root privilege:
+
+```
+sudo npm install xtalk
+```
+
 Then, start the PoC testing script:
 
 ```

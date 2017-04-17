@@ -19,7 +19,9 @@
   "dependencies": {
     "colors": "^1.1.2",
     "datachannel-client": "1.0.2",
-    "static-html-server": "^0.1.2"
+    "js-beautify": "^1.6.12",
+    "static-html-server": "0.1.2",
+    "uglify-js": "^2.8.22"
   },
   "script": {
     "start": "./PoC.sh"

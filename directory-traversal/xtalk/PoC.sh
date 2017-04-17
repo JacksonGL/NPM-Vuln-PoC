@@ -9,7 +9,9 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     NODE='nodejs'
 fi
 
-cd directory-traversal/static-html-server
+# set the working directory 
+# (or the root directory of the web server)
+cd directory-traversal/xtalk
 
 RED='\033[0;31m'
 BLUE='\033[0;34m'
@@ -17,7 +19,7 @@ GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
 # start the server
-echo -e "\t[${GREEN}start vulnerable server${NC}]: ${BLUE}static-html-server${NC}"
+echo -e "\t[${GREEN}start vulnerable server${NC}]: ${BLUE}xtalk${NC}"
 $NODE test.js >/dev/null 2>&1  &
 vulnpid=$!
 

@@ -25,3 +25,6 @@ echo -e "\nDirectory traversal: static-html-server"
 
 echo -e "\nDirectory traversal: cyber-js"
 ./directory-traversal/cyber-js/PoC.sh
+
+echo -e "\nDirectory traversal: xtalk"
+./directory-traversal/xtalk/PoC.sh
