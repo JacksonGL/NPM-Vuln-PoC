@@ -1,0 +1,27 @@
+{
+  "name": "npm-vuln-poc",
+  "version": "1.0.0",
+  "description": "npm vulnerability proof-of-concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonGL/NPM-Vuln-PoC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacksonGL/NPM-Vuln-PoC/issues"
+  },
+  "homepage": "https://github.com/JacksonGL/NPM-Vuln-PoC#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "datachannel-client": "1.0.2",
+    "static-html-server": "^0.1.2"
+  },
+  "script": {
+    "start": "./PoC.sh"
+  }
+}
