@@ -31,3 +31,6 @@ echo -e "\nDirectory traversal: xtalk"
 
 echo -e "\nDirectory traversal: easyquick"
 ./directory-traversal/easyquick/PoC.sh
+
+echo -e "\nDirectory traversal: sencisho"
+./directory-traversal/sencisho/PoC.sh
