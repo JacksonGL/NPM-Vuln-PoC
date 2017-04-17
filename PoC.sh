@@ -37,3 +37,6 @@ echo -e "\nDirectory traversal: sencisho"
 
 echo -e "\nDirectory traversal: nodeload-nmickuli"
 ./directory-traversal/nodeload-nmickuli/PoC.sh
+
+echo -e "\nDirectory traversal: list-n-stream"
+./directory-traversal/list-n-stream/PoC.sh
