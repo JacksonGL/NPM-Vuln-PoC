@@ -34,3 +34,6 @@ echo -e "\nDirectory traversal: easyquick"
 
 echo -e "\nDirectory traversal: sencisho"
 ./directory-traversal/sencisho/PoC.sh
+
+echo -e "\nDirectory traversal: nodeload-nmickuli"
+./directory-traversal/nodeload-nmickuli/PoC.sh
