@@ -3,10 +3,11 @@
 
 if [ "$(uname)" == "Darwin" ]; then
     # under Mac OS X platform
-    NODE='node'       
+    NODE='node'
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     # under GNU/Linux platform
-    NODE='nodejs'
+    echo 'xtalk has a bug, it can only be reproduced on Mac OS.'
+    exit
 fi
 
 # set the working directory 
