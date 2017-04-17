@@ -1,6 +1,22 @@
 #!/bin/bash
 # Author: Liang Gong
 
+
+if [ "$(uname)" == "Darwin" ]; then
+    # under Mac OS X platform
+    NODE='node'       
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+    # under GNU/Linux platform
+    NODE='nodejs'
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
+    echo 'Sorry. This PoC only supports Linux/Mac OS.'
+    exit
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
+    # under 64 bits Windows NT platform
+    echo 'Sorry. This PoC only supports Linux/Mac OS.'
+    exit
+fi
+
 echo -e "\nDirectory traversal: datachannel-client"
 ./directory-traversal/datachannel-client/PoC.sh
 
