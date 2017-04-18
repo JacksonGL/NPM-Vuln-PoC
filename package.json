@@ -19,6 +19,7 @@
   "dependencies": {
     "colors": "^1.1.2",
     "datachannel-client": "1.0.2",
+    "earlybird": "0.1.7",
     "easyquick": "0.1.1",
     "f2e-node-server": "^1.0.5",
     "guaycuru": "0.2.3",
