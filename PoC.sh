@@ -17,6 +17,9 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+echo -e "\nDirectory traversal: iter-http"
+./directory-traversal/iter-http/PoC.sh
+
 echo -e "\nDirectory traversal: datachannel-client"
 ./directory-traversal/datachannel-client/PoC.sh
 
