@@ -1,0 +1,1 @@
+var pkg = require('tiny-http').run();
