@@ -15,6 +15,7 @@ The following vulnerable packages require global install or root privilege:
 ```
 sudo npm install xtalk@0.0.7
 sudo npm install nodeload-nmickuli@1.0.3
+sudo npm install badjs-sourcemap-server@1.1.11
 ```
 
 Then, start the PoC testing script:
