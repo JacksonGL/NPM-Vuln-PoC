@@ -13,7 +13,8 @@ npm install
 The following vulnerable packages require global install or root privilege:
 
 ```
-sudo npm install xtalk
+sudo npm install xtalk@0.0.7
+sudo npm install nodeload-nmickuli@1.0.3
 ```
 
 Then, start the PoC testing script:
