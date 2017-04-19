@@ -17,6 +17,10 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+
+echo -e "\nDirectory traversal: fsk-server"
+./directory-traversal/fsk-server/PoC.sh
+
 echo -e "\nDirectory traversal: badjs-sourcemap-server"
 ./directory-traversal/badjs-sourcemap-server/PoC.sh
 
