@@ -1,0 +1,1 @@
+var pkg = require('fast-http-cli');
