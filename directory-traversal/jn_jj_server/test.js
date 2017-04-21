@@ -1,0 +1,1 @@
+var pkg = require('jn_jj_server');

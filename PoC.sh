@@ -17,6 +17,9 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+echo -e "\nDirectory traversal: jn_jj_server"
+./directory-traversal/jn_jj_server/PoC.sh
+
 echo -e "\nDirectory traversal: pooledwebsocket"
 ./directory-traversal/pooledwebsocket/PoC.sh
 
