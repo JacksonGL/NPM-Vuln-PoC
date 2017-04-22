@@ -25,6 +25,7 @@
     "fast-http-cli": "0.0.8",
     "fsk-server": "0.2.1",
     "guaycuru": "0.2.3",
+    "hftp": "0.0.6",
     "iter-http": "1.0.13",
     "jn_jj_server": "0.0.8",
     "js-beautify": "^1.6.12",
