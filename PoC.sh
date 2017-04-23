@@ -17,6 +17,9 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+echo -e "\nDirectory traversal: mockserve"
+./directory-traversal/mockserve/PoC.sh
+
 echo -e "\nDirectory traversal: hftp"
 ./directory-traversal/hftp/PoC.sh
 

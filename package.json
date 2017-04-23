@@ -30,6 +30,7 @@
     "jn_jj_server": "0.0.8",
     "js-beautify": "^1.6.12",
     "list-n-stream": "0.0.10",
+    "mockserve": "2.0.4",
     "pooledwebsocket": "0.0.17",
     "sencisho": "0.2.4",
     "static-html-server": "0.1.2",
