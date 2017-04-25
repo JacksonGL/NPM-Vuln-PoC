@@ -1,0 +1,1 @@
+var pkg = require('rtcmulticonnection-client');

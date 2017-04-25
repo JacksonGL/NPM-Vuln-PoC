@@ -17,6 +17,13 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+
+echo -e "\nDirectory traversal: rtcmulticonnection-client"
+./directory-traversal/rtcmulticonnection-client/PoC.sh
+
+echo -e "\nDirectory traversal: lessindex"
+./directory-traversal/lessindex/PoC.sh
+
 echo -e "\nDirectory traversal: mockserve"
 ./directory-traversal/mockserve/PoC.sh
 
