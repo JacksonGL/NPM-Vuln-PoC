@@ -18,6 +18,12 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
 fi
 
 
+echo -e "\nDirectory traversal: reecerver"
+./directory-traversal/reecerver/PoC.sh
+
+echo -e "\nDirectory traversal: quickserver"
+./directory-traversal/quickserver/PoC.sh
+
 echo -e "\nDirectory traversal: rtcmulticonnection-client"
 ./directory-traversal/rtcmulticonnection-client/PoC.sh
 

@@ -2,7 +2,7 @@
 
 This directory contains the proof-of-concepts for vulnerabilities discovered in npm pakcages. 
 
-**Warning:** This repo will install vulnerable npm packages and test them to demonstrate the vulnerabitlies. So running this project in a VM (with Linux or Mac OS) is highly recommended.
+**Warning:** This repo will install vulnerable npm packages and test them to demonstrate the vulnerabitlies. So running this project in a **VM** (with **Linux** or **Mac OS**) is highly recommended.
 
 To reproduce the vulnerabilites, first install the vulnerable packages: 
 
@@ -21,5 +21,7 @@ sudo npm install badjs-sourcemap-server@0.1.11
 Then, start the PoC testing script:
 
 ```
-./PoC.sh
+sudo ./PoC.sh
 ```
+
+**Notice:** some vulnerable package starts a webserver at port 80, which requires root privilege to start. Therefore, ```sudo``` is prefixed in the above command.
