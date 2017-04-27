@@ -24,4 +24,4 @@ Then, start the PoC testing script:
 sudo ./PoC.sh
 ```
 
-**Notice:** some vulnerable package starts a webserver at port 80, which requires root privilege to start. Therefore, ```sudo``` is prefixed in the above command.
+**Notice:** some vulnerable packages start a web server at port 80, which requires root privilege. Therefore, ```sudo``` is prefixed in the above command.
