@@ -31,6 +31,7 @@
     "js-beautify": "^1.6.12",
     "lessindex": "1.0.0",
     "list-n-stream": "0.0.10",
+    "mfrs": "1.0.0",
     "mockserve": "2.0.4",
     "pooledwebsocket": "0.0.17",
     "quickserver": "1.1.0",
@@ -38,10 +39,12 @@
     "rtcmulticonnection-client": "1.0.5",
     "sencisho": "0.2.4",
     "static-html-server": "0.1.2",
+    "thrushs": "1.1.0",
     "tiny-http": "2.0.8",
     "tmock": "0.0.7",
     "uglify-js": "^2.8.22",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "weather.swlyons": "0.1.6"
   },
   "script": {
     "start": "./PoC.sh"

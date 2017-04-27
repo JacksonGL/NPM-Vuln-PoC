@@ -1,3 +1,4 @@
 node_modules/*
 .DS_Store
 *.html
+directory-traversal/thrushs/config/pid
