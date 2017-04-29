@@ -18,6 +18,15 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
 fi
 
 
+echo -e "\nDirectory traversal: desafio"
+./directory-traversal/desafio/PoC.sh
+
+echo -e "\nDirectory traversal: hcbserver"
+./directory-traversal/hcbserver/PoC.sh
+
+echo -e "\nDirectory traversal: gomeplus-h5-proxy"
+./directory-traversal/gomeplus-h5-proxy/PoC.sh
+
 echo -e "\nDirectory traversal: mfrs"
 ./directory-traversal/mfrs/PoC.sh
 

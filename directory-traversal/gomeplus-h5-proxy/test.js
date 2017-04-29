@@ -1,0 +1,1 @@
+var pkg = require('gomeplus-h5-proxy');
