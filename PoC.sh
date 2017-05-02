@@ -18,6 +18,21 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
 fi
 
 
+echo -e "\nDirectory traversal: tinyserver2"
+./directory-traversal/tinyserver2/PoC.sh
+
+echo -e "\nDirectory traversal: ltt.js"
+./directory-traversal/ltt.js/PoC.sh
+
+echo -e "\nDirectory traversal: ltt"
+./directory-traversal/ltt/PoC.sh
+
+echo -e "\nDirectory traversal: tencent-server"
+./directory-traversal/tencent-server/PoC.sh
+
+echo -e "\nDirectory traversal: wind-mvc"
+./directory-traversal/wind-mvc/PoC.sh
+
 echo -e "\nDirectory traversal: serverzyy"
 ./directory-traversal/serverzyy/PoC.sh
 

@@ -34,6 +34,8 @@
     "js-beautify": "^1.6.12",
     "lessindex": "1.0.0",
     "list-n-stream": "0.0.10",
+    "ltt": "^1.1.0",
+    "ltt.js": "1.0.0",
     "mfrs": "1.0.0",
     "mockserve": "2.0.4",
     "nodeaaaaa": "1.3.0",
@@ -45,12 +47,15 @@
     "sencisho": "0.2.4",
     "serverzyy": "1.0.0",
     "static-html-server": "0.1.2",
+    "tencent-server": "0.0.2",
     "thrushs": "1.1.0",
     "tiny-http": "2.0.8",
+    "tinyserver2": "0.5.2",
     "tmock": "0.0.7",
     "uglify-js": "^2.8.22",
     "underscore": "^1.8.3",
-    "weather.swlyons": "0.1.6"
+    "weather.swlyons": "0.1.6",
+    "wind-mvc": "0.0.6"
   },
   "script": {
     "start": "./PoC.sh"
