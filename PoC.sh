@@ -17,6 +17,12 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+echo -e "\nDirectory traversal: serveryaozeyan"
+./directory-traversal/serveryaozeyan/PoC.sh
+
+# needs to be replicated on Windows
+# echo -e "\nDirectory traversal: xiongrui-httpserver"
+# ./directory-traversal/xiongrui-httpserver/PoC.sh
 
 echo -e "\nDirectory traversal: tinyserver2"
 ./directory-traversal/tinyserver2/PoC.sh

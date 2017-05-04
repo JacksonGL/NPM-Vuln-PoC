@@ -34,7 +34,7 @@
     "js-beautify": "^1.6.12",
     "lessindex": "1.0.0",
     "list-n-stream": "0.0.10",
-    "ltt": "^1.1.0",
+    "ltt": "1.1.0",
     "ltt.js": "1.0.0",
     "mfrs": "1.0.0",
     "mockserve": "2.0.4",
@@ -45,6 +45,7 @@
     "reecerver": "0.1.2",
     "rtcmulticonnection-client": "1.0.5",
     "sencisho": "0.2.4",
+    "serveryaozeyan": "1.0.4",
     "serverzyy": "1.0.0",
     "static-html-server": "0.1.2",
     "tencent-server": "0.0.2",
@@ -55,7 +56,8 @@
     "uglify-js": "^2.8.22",
     "underscore": "^1.8.3",
     "weather.swlyons": "0.1.6",
-    "wind-mvc": "0.0.6"
+    "wind-mvc": "0.0.6",
+    "xiongrui-httpserver": "1.0.5"
   },
   "script": {
     "start": "./PoC.sh"
