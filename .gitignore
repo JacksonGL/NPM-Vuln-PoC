@@ -2,3 +2,5 @@ node_modules/*
 .DS_Store
 *.html
 directory-traversal/thrushs/config/pid
+directory-traversal/ritp/logs/*
+directory-traversal/run-this-place/logs/*

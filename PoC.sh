@@ -17,6 +17,15 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+echo -e "\nDirectory traversal: pytservce"
+./directory-traversal/pytservce/PoC.sh
+
+echo -e "\nDirectory traversal: ritp"
+./directory-traversal/ritp/PoC.sh
+
+echo -e "\nDirectory traversal: run-this-place"
+./directory-traversal/run-this-place/PoC.sh
+
 echo -e "\nDirectory traversal: gaoxuyan"
 ./directory-traversal/gaoxuyan/PoC.sh
 

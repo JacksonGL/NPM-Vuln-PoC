@@ -1,0 +1,1 @@
+var pkg = require('run-this-place');
