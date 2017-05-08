@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/JacksonGL/NPM-Vuln-PoC#readme",
   "dependencies": {
-    "colors": "^1.1.2",
+    "11xiaoli": "1.1.0",
+    "censorify.tanisjr": "0.1.4",
+    "colors": "1.1.2",
+    "dasafio": "1.2.0",
     "datachannel-client": "1.0.2",
     "desafio": "1.1.0",
     "earlybird": "0.1.7",
@@ -32,7 +35,7 @@
     "hftp": "0.0.6",
     "iter-http": "1.0.13",
     "jn_jj_server": "0.0.8",
-    "js-beautify": "^1.6.12",
+    "js-beautify": "1.6.12",
     "lessindex": "1.0.0",
     "list-n-stream": "0.0.10",
     "ltt": "1.1.0",
@@ -60,11 +63,17 @@
     "tiny-http": "2.0.8",
     "tinyserver2": "0.5.2",
     "tmock": "0.0.7",
-    "uglify-js": "^2.8.22",
-    "underscore": "^1.8.3",
+    "uekw1511server": "1.0.1",
+    "uglify-js": "2.8.22",
+    "underscore": "1.8.3",
+    "uv-tj-demo": "1.0.0",
     "weather.swlyons": "0.1.6",
+    "wenluhong1": "1.0.0",
     "wind-mvc": "0.0.6",
-    "xiongrui-httpserver": "1.0.5"
+    "wisper": "0.6.0",
+    "xiongrui-httpserver": "1.0.5",
+    "yzt": "1.4.0",
+    "zjjserver": "1.0.0"
   },
   "script": {
     "start": "./PoC.sh"

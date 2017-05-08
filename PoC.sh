@@ -17,6 +17,38 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+echo -e "\nArbitrary write: thrushs"
+./arbitrary-write/thrushs/PoC.sh
+
+echo -e "\nArbitrary write: wisper"
+./arbitrary-write/wisper/PoC.sh
+
+# directory traversal issues
+
+echo -e "\nDirectory traversal: censorify.tanisjr"
+./directory-traversal/censorify.tanisjr/PoC.sh
+
+echo -e "\nDirectory traversal: dasafio"
+./directory-traversal/dasafio/PoC.sh
+
+echo -e "\nDirectory traversal: wenluhong1"
+./directory-traversal/wenluhong1/PoC.sh
+
+echo -e "\nDirectory traversal: zjjserver"
+./directory-traversal/zjjserver/PoC.sh
+
+echo -e "\nDirectory traversal: uv-tj-demo"
+./directory-traversal/uv-tj-demo/PoC.sh
+
+echo -e "\nDirectory traversal: yzt"
+./directory-traversal/yzt/PoC.sh
+
+echo -e "\nDirectory traversal: uekw1511server"
+./directory-traversal/uekw1511server/PoC.sh
+
+echo -e "\nDirectory traversal: 11xiaoli"
+./directory-traversal/11xiaoli/PoC.sh
+
 echo -e "\nDirectory traversal: pytservce"
 ./directory-traversal/pytservce/PoC.sh
 
