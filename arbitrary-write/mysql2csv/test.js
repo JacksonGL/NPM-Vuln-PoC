@@ -1,0 +1,1 @@
+var pkg = require('mysql2csv');

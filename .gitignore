@@ -1,6 +1,7 @@
 node_modules/*
 .DS_Store
 *.html
+*.log
 directory-traversal/thrushs/config/pid
 arbitrary-write/thrushs/config/pid
 arbitrary-write/thrushs/dummy.txt*

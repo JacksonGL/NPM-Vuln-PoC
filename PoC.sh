@@ -17,6 +17,14 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
     exit
 fi
 
+# arbitrary file overwrite issues
+
+echo -e "\nArbitrary write: mysql2csv"
+./arbitrary-write/mysql2csv/PoC.sh
+
+echo -e "\nArbitrary write: lam"
+./arbitrary-write/lam/PoC.sh
+
 echo -e "\nArbitrary write: thrushs"
 ./arbitrary-write/thrushs/PoC.sh
 
@@ -24,6 +32,37 @@ echo -e "\nArbitrary write: wisper"
 ./arbitrary-write/wisper/PoC.sh
 
 # directory traversal issues
+
+echo -e "\nDirectory traversal: liyujing"
+./directory-traversal/liyujing/PoC.sh
+
+echo -e "\nDirectory traversal: gaoxiaotingtingting"
+./directory-traversal/gaoxiaotingtingting/PoC.sh
+
+echo -e "\nDirectory traversal: unicorn-list"
+./directory-traversal/unicorn-list/PoC.sh
+
+echo -e "\nDirectory traversal: utahcityfinder"
+./directory-traversal/utahcityfinder/PoC.sh
+
+# needs a sql database to make it work
+# echo -e "\nDirectory traversal: qinserve"
+# ./directory-traversal/qinserve/PoC.sh
+
+echo -e "\nDirectory traversal: picard"
+./directory-traversal/picard/PoC.sh
+
+echo -e "\nDirectory traversal: sspa"
+./directory-traversal/sspa/PoC.sh
+
+echo -e "\nDirectory traversal: ewgaddis.lab6"
+./directory-traversal/ewgaddis.lab6/PoC.sh
+
+echo -e "\nDirectory traversal: exxxxxxxxxxx"
+./directory-traversal/exxxxxxxxxxx/PoC.sh
+
+echo -e "\nDirectory traversal: fbr-client"
+./directory-traversal/fbr-client/PoC.sh
 
 echo -e "\nDirectory traversal: censorify.tanisjr"
 ./directory-traversal/censorify.tanisjr/PoC.sh
