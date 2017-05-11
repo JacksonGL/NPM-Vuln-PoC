@@ -19,6 +19,12 @@ fi
 
 # arbitrary file overwrite issues
 
+echo -e "\nArbitrary write: connect-parse-php"
+./arbitrary-write/connect-parse-php/PoC.sh
+
+echo -e "\nArbitrary write: frvr"
+./arbitrary-write/frvr/PoC.sh
+
 echo -e "\nArbitrary write: mysql2csv"
 ./arbitrary-write/mysql2csv/PoC.sh
 
@@ -32,6 +38,30 @@ echo -e "\nArbitrary write: wisper"
 ./arbitrary-write/wisper/PoC.sh
 
 # directory traversal issues
+
+echo -e "\nDirectory traversal: intsol-package"
+./directory-traversal/intsol-package/PoC.sh
+
+echo -e "\nDirectory traversal: iter-server"
+./directory-traversal/iter-server/PoC.sh
+
+echo -e "\nDirectory traversal: whispercast"
+./directory-traversal/whispercast/PoC.sh
+
+echo -e "\nDirectory traversal: shit-server"
+./directory-traversal/shit-server/PoC.sh
+
+echo -e "\nDirectory traversal: serverwzl"
+./directory-traversal/serverwzl/PoC.sh
+
+echo -e "\nDirectory traversal: serverwg"
+./directory-traversal/serverwg/PoC.sh
+
+echo -e "\nDirectory traversal: cuciuci"
+./directory-traversal/cuciuci/PoC.sh
+
+echo -e "\nDirectory traversal: 22lixian"
+./directory-traversal/22lixian/PoC.sh
 
 echo -e "\nDirectory traversal: liyujing"
 ./directory-traversal/liyujing/PoC.sh

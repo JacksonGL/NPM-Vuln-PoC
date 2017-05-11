@@ -7,3 +7,4 @@ arbitrary-write/thrushs/config/pid
 arbitrary-write/thrushs/dummy.txt*
 directory-traversal/ritp/logs/*
 directory-traversal/run-this-place/logs/*
+directory-traversal/iter-server/*.txt
