@@ -5,7 +5,7 @@
     var http = require('http');
     var colors = require('colors');
     var content;
-    var prefix = __dirname + '../../../';
+    var prefix = __dirname + '/../../';
     var url = 'http://localhost:8080/' + prefix + 'confidential.txt';
 
     console.log('\t[' + 'directory traversal attack'.green + ']: ' + url);
