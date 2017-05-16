@@ -39,6 +39,33 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: serverhuwenhui"
+./directory-traversal/serverhuwenhui/PoC.sh
+
+echo -e "\nDirectory traversal: serveryztyzt"
+./directory-traversal/serveryztyzt/PoC.sh
+
+echo -e "\nDirectory traversal: calmquist.static-server"
+./directory-traversal/calmquist.static-server/PoC.sh
+
+echo -e "\nDirectory traversal: enserver"
+./directory-traversal/enserver/PoC.sh
+
+echo -e "\nDirectory traversal: citypredict.whauwiller"
+./directory-traversal/citypredict.whauwiller/PoC.sh
+
+echo -e "\nDirectory traversal: dgard8.lab6"
+./directory-traversal/dgard8.lab6/PoC.sh
+
+echo -e "\nDirectory traversal: dcserver"
+./directory-traversal/dcserver/PoC.sh
+
+echo -e "\nDirectory traversal: yyooopack"
+./directory-traversal/yyooopack/PoC.sh
+
+echo -e "\nDirectory traversal: zwserver"
+./directory-traversal/zwserver/PoC.sh
+
 echo -e "\nDirectory traversal: intsol-package"
 ./directory-traversal/intsol-package/PoC.sh
 
