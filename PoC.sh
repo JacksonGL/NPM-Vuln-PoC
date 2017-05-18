@@ -19,6 +19,9 @@ fi
 
 # arbitrary file overwrite issues
 
+echo -e "\nArbitrary write: innomon"
+./arbitrary-write/innomon/PoC.sh
+
 echo -e "\nArbitrary write: parse-ssi"
 ./arbitrary-write/parse-ssi/PoC.sh
 
@@ -41,6 +44,30 @@ echo -e "\nArbitrary write: wisper"
 ./arbitrary-write/wisper/PoC.sh
 
 # directory traversal issues
+
+echo -e "\nDirectory traversal: dylmomo"
+./directory-traversal/dylmomo/PoC.sh
+
+echo -e "\nDirectory traversal: sly07"
+./directory-traversal/sly07/PoC.sh
+
+echo -e "\nDirectory traversal: sgqserve"
+./directory-traversal/sgqserve/PoC.sh
+
+echo -e "\nDirectory traversal: serverliujiayi1"
+./directory-traversal/serverliujiayi1/PoC.sh
+
+echo -e "\nDirectory traversal: jansenstuffpleasework"
+./directory-traversal/jansenstuffpleasework/PoC.sh
+
+echo -e "\nDirectory traversal: infraserver"
+./directory-traversal/infraserver/PoC.sh
+
+echo -e "\nDirectory traversal: getcityapi.yoehoehne"
+./directory-traversal/getcityapi.yoehoehne/PoC.sh
+
+echo -e "\nDirectory traversal: wangguojing123"
+./directory-traversal/wangguojing123/PoC.sh
 
 echo -e "\nDirectory traversal: peiserver"
 ./directory-traversal/peiserver/PoC.sh
