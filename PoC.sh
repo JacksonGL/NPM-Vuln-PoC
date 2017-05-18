@@ -19,6 +19,9 @@ fi
 
 # arbitrary file overwrite issues
 
+echo -e "\nArbitrary write: parse-ssi"
+./arbitrary-write/parse-ssi/PoC.sh
+
 echo -e "\nArbitrary write: connect-parse-php"
 ./arbitrary-write/connect-parse-php/PoC.sh
 
@@ -38,6 +41,27 @@ echo -e "\nArbitrary write: wisper"
 ./arbitrary-write/wisper/PoC.sh
 
 # directory traversal issues
+
+echo -e "\nDirectory traversal: peiserver"
+./directory-traversal/peiserver/PoC.sh
+
+echo -e "\nDirectory traversal: myserver.alexcthomas18"
+./directory-traversal/myserver.alexcthomas18/PoC.sh
+
+echo -e "\nDirectory traversal: looppake"
+./directory-traversal/looppake/PoC.sh
+
+echo -e "\nDirectory traversal: lab6.brit95"
+./directory-traversal/lab6.brit95/PoC.sh
+
+echo -e "\nDirectory traversal: jikes"
+./directory-traversal/jikes/PoC.sh
+
+echo -e "\nDirectory traversal: serverabc"
+./directory-traversal/serverabc/PoC.sh
+
+echo -e "\nDirectory traversal: serverlyr"
+./directory-traversal/serverlyr/PoC.sh
 
 echo -e "\nDirectory traversal: serverhuwenhui"
 ./directory-traversal/serverhuwenhui/PoC.sh
