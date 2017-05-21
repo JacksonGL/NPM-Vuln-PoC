@@ -9,6 +9,22 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     NODE='nodejs'
 fi
 
+#  It turns out that guaycuru uses another package called node-simple-router (created by the same author).
+# The directory traversal issue was also fixed in node-simple-router (fix link: https://github.com/sandy98/node-simple-router/commit/dfdd52e2e80607af433097d940b3834fd96df488).
+# The guaycuru package now dependents on node-simple-router@latest
+
+# To reproduce exactly what happened before the vulnerability was fixed, 
+# please use the following commands:
+
+npm uninstall node-simple-router
+npm uninstall node_modules/guaycuru
+npm cache clear
+npm install guaycuru@0.2.3
+cd node_modules/guaycuru/
+npm uninstall node-simple-router
+npm install node-simple-router@0.10.0
+cd ../..
+
 cd directory-traversal/guaycuru
 
 RED='\033[0;31m'

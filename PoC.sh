@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: liuyaserver"
+./directory-traversal/liuyaserver/PoC.sh
+
+echo -e "\nDirectory traversal: city-weather-abe"
+./directory-traversal/city-weather-abe/PoC.sh
+
+echo -e "\nDirectory traversal: yttivy"
+./directory-traversal/yttivy/PoC.sh
+
+echo -e "\nDirectory traversal: wintiwebdev"
+./directory-traversal/wintiwebdev/PoC.sh
+
+echo -e "\nDirectory traversal: node-server-forfront"
+./directory-traversal/node-server-forfront/PoC.sh
+
 echo -e "\nDirectory traversal: dylmomo"
 ./directory-traversal/dylmomo/PoC.sh
 
