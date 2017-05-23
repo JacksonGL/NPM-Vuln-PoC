@@ -1,3 +1,6 @@
+/*
+ * Author: Nicholas Starke and Liang Gong
+ */
 var Router = require('node-simple-router');
 var router = new Router({
       static_route: process.cwd(),
