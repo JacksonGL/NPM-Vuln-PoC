@@ -25,3 +25,5 @@ sudo ./PoC.sh
 ```
 
 **Notice:** some vulnerable packages start a web server at port 80, which requires root privilege. Therefore, ```sudo``` is prefixed in the above command.
+
+Versions of those vulnerable packages can be found in the [package.json](package.json) file.
