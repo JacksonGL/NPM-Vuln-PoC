@@ -45,6 +45,9 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: node-simple-router"
+./directory-traversal/node-simple-router/PoC.sh
+
 echo -e "\nDirectory traversal: liuyaserver"
 ./directory-traversal/liuyaserver/PoC.sh
 
