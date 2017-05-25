@@ -45,6 +45,18 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: byucslabsix"
+./directory-traversal/byucslabsix/PoC.sh
+
+echo -e "\nDirectory traversal: dmmcquay.lab6"
+./directory-traversal/dmmcquay.lab6/PoC.sh
+
+echo -e "\nDirectory traversal: elding"
+./directory-traversal/elding/PoC.sh
+
+echo -e "\nDirectory traversal: wffserve"
+./directory-traversal/wffserve/PoC.sh
+
 echo -e "\nDirectory traversal: node-simple-router"
 ./directory-traversal/node-simple-router/PoC.sh
 
