@@ -19,9 +19,9 @@ GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
 mkdir /tmp/log
-rm -f ${vuln_file}
-if [ ! -f $vuln_file ]; then
-    echo -e "\t[${GREEN}vuln file does not exist${NC}]: ${vuln_file}"
+rm -rf ${vuln_file}
+if [ ! -d $vuln_file ]; then
+    echo -e "\t[${GREEN}vuln dir does not exist${NC}]: ${vuln_file}"
 fi
 
 # start the server
