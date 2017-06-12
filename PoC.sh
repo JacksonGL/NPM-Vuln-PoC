@@ -45,6 +45,30 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: goserv"
+./directory-traversal/goserv/PoC.sh
+
+echo -e "\nDirectory traversal: http_static_simple"
+./directory-traversal/http_static_simple/PoC.sh
+
+echo -e "\nDirectory traversal: lab6drewfusbyu"
+./directory-traversal/lab6drewfusbyu/PoC.sh
+
+echo -e "\nDirectory traversal: serve46"
+./directory-traversal/serve46/PoC.sh
+
+echo -e "\nDirectory traversal: serverxxx"
+./directory-traversal/serverxxx/PoC.sh
+
+echo -e "\nDirectory traversal: shenliru"
+./directory-traversal/shenliru/PoC.sh
+
+echo -e "\nDirectory traversal: simple-npm-registry"
+./directory-traversal/simple-npm-registry/PoC.sh
+
+echo -e "\nDirectory traversal: chatbyvista"
+./directory-traversal/chatbyvista/PoC.sh
+
 echo -e "\nDirectory traversal: byucslabsix"
 ./directory-traversal/byucslabsix/PoC.sh
 

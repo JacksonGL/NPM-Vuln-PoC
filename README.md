@@ -26,4 +26,6 @@ sudo ./PoC.sh
 
 **Notice:** some vulnerable packages start a web server at port 80, which requires root privilege. Therefore, ```sudo``` is prefixed in the above command.
 
+Some vulnerable packages use APIs that are deprecated in Node.js v7.1+. To reproduce those vulnerabilities, try Node.js v4.6.x or Node.js v6.x.
+
 Versions of those vulnerable packages can be found in the [package.json](package.json) file.
