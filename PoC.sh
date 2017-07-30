@@ -45,6 +45,30 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: ghod5servercs360"
+./directory-traversal/ghod5servercs360/PoC.sh
+
+echo -e "\nDirectory traversal: hechatroom"
+./directory-traversal/hechatroom/PoC.sh
+
+echo -e "\nDirectory traversal: lihuini"
+./directory-traversal/lihuini/PoC.sh
+
+echo -e "\nDirectory traversal: xxf11"
+./directory-traversal/xxf11/PoC.sh
+
+echo -e "\nDirectory traversal: cxy"
+./directory-traversal/cxy/PoC.sh
+
+echo -e "\nDirectory traversal: srverqq"
+./directory-traversal/srverqq/PoC.sh
+
+echo -e "\nDirectory traversal: servergmf"
+./directory-traversal/servergmf/PoC.sh
+
+echo -e "\nDirectory traversal: lzl123"
+./directory-traversal/lzl123/PoC.sh
+
 echo -e "\nDirectory traversal: section2.madisonjbrooks12"
 ./directory-traversal/section2.madisonjbrooks12/PoC.sh
 
