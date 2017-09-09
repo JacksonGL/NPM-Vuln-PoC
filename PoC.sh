@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: wangshuai"
+./directory-traversal/wangshuai/PoC.sh
+
+echo -e "\nDirectory traversal: tinyserver"
+./directory-traversal/tinyserver/PoC.sh
+
+echo -e "\nDirectory traversal: nopach"
+./directory-traversal/nopach/PoC.sh
+
+echo -e "\nDirectory traversal: nodejs.jseidl"
+./directory-traversal/nodejs.jseidl/PoC.sh
+
+echo -e "\nDirectory traversal: xbhxbh"
+./directory-traversal/xbhxbh/PoC.sh
+
 echo -e "\nDirectory traversal: ghod5servercs360"
 ./directory-traversal/ghod5servercs360/PoC.sh
 
