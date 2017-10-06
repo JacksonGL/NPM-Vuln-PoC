@@ -45,6 +45,15 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: nodeserver-jta"
+./directory-traversal/nodeserver-jta/PoC.sh
+
+echo -e "\nDirectory traversal: severzlt"
+./directory-traversal/severzlt/PoC.sh
+
+echo -e "\nDirectory traversal: ljjnodeserve"
+./directory-traversal/ljjnodeserve/PoC.sh
+
 echo -e "\nDirectory traversal: wangshuai"
 ./directory-traversal/wangshuai/PoC.sh
 
