@@ -45,6 +45,24 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: hserver-static"
+./directory-traversal/hserver-static/PoC.sh
+
+echo -e "\nDirectory traversal: basic-static"
+./directory-traversal/basic-static/PoC.sh
+
+echo -e "\nDirectory traversal: api-proxy"
+./directory-traversal/api-proxy/PoC.sh
+
+echo -e "\nDirectory traversal: html-pages"
+./directory-traversal/html-pages/PoC.sh
+
+echo -e "\nDirectory traversal: static-cling"
+./directory-traversal/static-cling/PoC.sh
+
+echo -e "\nDirectory traversal: m-server"
+./directory-traversal/m-server/PoC.sh
+
 echo -e "\nDirectory traversal: nodeserver-jta"
 ./directory-traversal/nodeserver-jta/PoC.sh
 
