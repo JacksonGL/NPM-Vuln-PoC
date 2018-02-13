@@ -45,6 +45,27 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: pico-static-server"
+./directory-traversal/pico-static-server/PoC.sh
+
+echo -e "\nDirectory traversal: stattic"
+./directory-traversal/stattic/PoC.sh
+
+echo -e "\nDirectory traversal: aso-server"
+./directory-traversal/aso-server/PoC.sh
+
+echo -e "\nDirectory traversal: atropa-ide"
+./directory-traversal/atropa-ide/PoC.sh
+
+echo -e "\nDirectory traversal: atropa-server"
+./directory-traversal/atropa-server/PoC.sh
+
+echo -e "\nDirectory traversal: awning"
+./directory-traversal/awning/PoC.sh
+
+echo -e "\nDirectory traversal: sabu"
+./directory-traversal/sabu/PoC.sh
+
 echo -e "\nDirectory traversal: hserver-static"
 ./directory-traversal/hserver-static/PoC.sh
 
