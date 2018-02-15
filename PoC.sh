@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: bruteser"
+./directory-traversal/bruteser/PoC.sh
+
+echo -e "\nDirectory traversal: server-static"
+./directory-traversal/server-static/PoC.sh
+
+echo -e "\nDirectory traversal: node-staticserver"
+./directory-traversal/node-staticserver/PoC.sh
+
+echo -e "\nDirectory traversal: crud-file-server"
+./directory-traversal/crud-file-server/PoC.sh
+
+echo -e "\nDirectory traversal: bae-nodejs"
+./directory-traversal/bae-nodejs/PoC.sh
+
 echo -e "\nDirectory traversal: pico-static-server"
 ./directory-traversal/pico-static-server/PoC.sh
 
