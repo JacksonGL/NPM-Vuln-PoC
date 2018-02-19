@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: easy-node-server"
+./directory-traversal/easy-node-server/PoC.sh
+
+echo -e "\nDirectory traversal: fast-http"
+./directory-traversal/fast-http/PoC.sh
+
+echo -e "\nDirectory traversal: gamebutler"
+./directory-traversal/gamebutler/PoC.sh
+
+echo -e "\nDirectory traversal: getstats"
+./directory-traversal/getstats/PoC.sh
+
+echo -e "\nDirectory traversal: gfm-srv"
+./directory-traversal/gfm-srv/PoC.sh
+
 echo -e "\nDirectory traversal: btnode"
 ./directory-traversal/btnode/PoC.sh
 
