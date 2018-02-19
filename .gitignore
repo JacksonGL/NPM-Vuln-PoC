@@ -1,5 +1,6 @@
 node_modules/*
 .DS_Store
+.vscode
 *.html
 *.log
 directory-traversal/thrushs/config/pid

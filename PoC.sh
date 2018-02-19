@@ -45,6 +45,24 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: btnode"
+./directory-traversal/btnode/PoC.sh
+
+echo -e "\nDirectory traversal: ex-http-frame"
+./directory-traversal/ex-http-frame/PoC.sh
+
+echo -e "\nDirectory traversal: der-server"
+./directory-traversal/der-server/PoC.sh
+
+echo -e "\nDirectory traversal: glurp"
+./directory-traversal/glurp/PoC.sh
+
+echo -e "\nDirectory traversal: canvas-designer"
+./directory-traversal/canvas-designer/PoC.sh
+
+echo -e "\nDirectory traversal: butler-server"
+./directory-traversal/butler-server/PoC.sh
+
 echo -e "\nDirectory traversal: bruteser"
 ./directory-traversal/bruteser/PoC.sh
 
