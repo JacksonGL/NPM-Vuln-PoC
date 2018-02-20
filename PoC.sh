@@ -45,6 +45,24 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: lab6.1"
+./directory-traversal/lab6.1/PoC.sh
+
+echo -e "\nDirectory traversal: serverxh"
+./directory-traversal/serverxh/PoC.sh
+
+echo -e "\nDirectory traversal: markdown-server"
+./directory-traversal/markdown-server/PoC.sh
+
+echo -e "\nDirectory traversal: httpea"
+./directory-traversal/httpea/PoC.sh
+
+echo -e "\nDirectory traversal: isv-http"
+./directory-traversal/isv-http/PoC.sh
+
+echo -e "\nDirectory traversal: dilu"
+./directory-traversal/dilu/PoC.sh
+
 echo -e "\nDirectory traversal: easy-node-server"
 ./directory-traversal/easy-node-server/PoC.sh
 
