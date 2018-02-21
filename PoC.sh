@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: zhanglina"
+./directory-traversal/zhanglina/PoC.sh
+
+echo -e "\nDirectory traversal: censorify.matt.shurtz"
+./directory-traversal/censorify.matt.shurtz/PoC.sh
+
+echo -e "\nDirectory traversal: litedoc"
+./directory-traversal/litedoc/PoC.sh
+
+echo -e "\nDirectory traversal: lander"
+./directory-traversal/lander/PoC.sh
+
+echo -e "\nDirectory traversal: less-livereload"
+./directory-traversal/less-livereload/PoC.sh
+
 echo -e "\nDirectory traversal: lab6.1"
 ./directory-traversal/lab6.1/PoC.sh
 
