@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: servershuai"
+./directory-traversal/servershuai/PoC.sh
+
+echo -e "\nDirectory traversal: fakelearnnodejs"
+./directory-traversal/fakelearnnodejs/PoC.sh
+
+echo -e "\nDirectory traversal: server12311"
+./directory-traversal/server12311/PoC.sh
+
+echo -e "\nDirectory traversal: node-static-webserver"
+./directory-traversal/node-static-webserver/PoC.sh
+
+echo -e "\nDirectory traversal: node-http-server"
+./directory-traversal/node-http-server/PoC.sh
+
 echo -e "\nDirectory traversal: zhanglina"
 ./directory-traversal/zhanglina/PoC.sh
 
