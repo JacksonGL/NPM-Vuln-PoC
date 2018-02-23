@@ -45,6 +45,24 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: nitro-server"
+./directory-traversal/nitro-server/PoC.sh
+
+echo -e "\nDirectory traversal: grunt-fileserver"
+./directory-traversal/grunt-fileserver/PoC.sh
+
+echo -e "\nDirectory traversal: grunt-serve"
+./directory-traversal/grunt-serve/PoC.sh
+
+echo -e "\nDirectory traversal: node-cxc"
+./directory-traversal/node-cxc/PoC.sh
+
+echo -e "\nDirectory traversal: ussasasa"
+./directory-traversal/ussasasa/PoC.sh
+
+echo -e "\nDirectory traversal: lab6-wclaibor"
+./directory-traversal/lab6-wclaibor/PoC.sh
+
 echo -e "\nDirectory traversal: servershuai"
 ./directory-traversal/servershuai/PoC.sh
 
