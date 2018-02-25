@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: servedir"
+./directory-traversal/servedir/PoC.sh
+
+echo -e "\nDirectory traversal: secure-servedir"
+./directory-traversal/secure-servedir/PoC.sh
+
+echo -e "\nDirectory traversal: zhangranbigman"
+./directory-traversal/zhangranbigman/PoC.sh
+
+echo -e "\nDirectory traversal: my-sn"
+./directory-traversal/my-sn/PoC.sh
+
+echo -e "\nDirectory traversal: wenluhong11"
+./directory-traversal/wenluhong11/PoC.sh
+
 echo -e "\nDirectory traversal: nitro-server"
 ./directory-traversal/nitro-server/PoC.sh
 
