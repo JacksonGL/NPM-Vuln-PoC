@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: micra"
+./directory-traversal/micra/PoC.sh
+
+echo -e "\nDirectory traversal: ptest"
+./directory-traversal/ptest/PoC.sh
+
+echo -e "\nDirectory traversal: asset-cache"
+./directory-traversal/asset-cache/PoC.sh
+
+echo -e "\nDirectory traversal: wuzhuang"
+./directory-traversal/wuzhuang/PoC.sh
+
+echo -e "\nDirectory traversal: cuiaiguang"
+./directory-traversal/cuiaiguang/PoC.sh
+
 echo -e "\nDirectory traversal: servedir"
 ./directory-traversal/servedir/PoC.sh
 
