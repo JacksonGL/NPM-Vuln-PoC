@@ -45,6 +45,24 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: simple-mock-server"
+./directory-traversal/simple-mock-server/PoC.sh
+
+echo -e "\nDirectory traversal: easy-router"
+./directory-traversal/easy-router/PoC.sh
+
+echo -e "\nDirectory traversal: mime_web_server"
+./directory-traversal/mime_web_server/PoC.sh
+
+echo -e "\nDirectory traversal: xingbaohai"
+./directory-traversal/xingbaohai/PoC.sh
+
+echo -e "\nDirectory traversal: express-blinker"
+./directory-traversal/express-blinker/PoC.sh
+
+echo -e "\nDirectory traversal: caihong"
+./directory-traversal/caihong/PoC.sh
+
 echo -e "\nDirectory traversal: micra"
 ./directory-traversal/micra/PoC.sh
 
