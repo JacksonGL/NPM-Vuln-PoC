@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: websvr"
+./directory-traversal/websvr/PoC.sh
+
+echo -e "\nDirectory traversal: webkit-devtools-agent-frontend"
+./directory-traversal/webkit-devtools-agent-frontend/PoC.sh
+
+echo -e "\nDirectory traversal: willvdb_test_server"
+./directory-traversal/willvdb_test_server/PoC.sh
+
+echo -e "\nDirectory traversal: caolilinode1"
+./directory-traversal/caolilinode1/PoC.sh
+
+echo -e "\nDirectory traversal: binocular-lamp"
+./directory-traversal/binocular-lamp/PoC.sh
+
 echo -e "\nDirectory traversal: simple-mock-server"
 ./directory-traversal/simple-mock-server/PoC.sh
 
