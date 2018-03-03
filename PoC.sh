@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: rapid-httpserver"
+./directory-traversal/rapid-httpserver/PoC.sh
+
+echo -e "\nDirectory traversal: myserve111"
+./directory-traversal/myserve111/PoC.sh
+
+echo -e "\nDirectory traversal: serveryyl"
+./directory-traversal/serveryyl/PoC.sh
+
+echo -e "\nDirectory traversal: zxyserver"
+./directory-traversal/zxyserver/PoC.sh
+
+echo -e "\nDirectory traversal: proxey"
+./directory-traversal/proxey/PoC.sh
+
 echo -e "\nDirectory traversal: web-node-server"
 ./directory-traversal/web-node-server/PoC.sh
 

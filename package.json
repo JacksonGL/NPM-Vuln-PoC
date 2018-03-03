@@ -143,6 +143,7 @@
     "mockserve": "2.0.4",
     "my-sn": "1.0.1",
     "myprolyz": "1.1.0",
+    "myserve111": "1.1.2",
     "myserver.alexcthomas18": "0.0.1",
     "mysql2csv": "1.0.1",
     "ngrok": "2.2.26",
@@ -164,10 +165,13 @@
     "picard": "0.3.1",
     "pico-static-server": "2.3.4",
     "pooledwebsocket": "0.0.17",
+    "proxey": "0.4.2",
     "ptest": "1.0.0",
     "pytservce": "1.0.0",
     "qinserve": "1.0.0",
     "quickserver": "1.1.0",
+    "rapid-core": "0.0.4",
+    "rapid-httpserver": "0.1.3",
     "reecerver": "0.1.2",
     "ritp": "1.0.5",
     "rtcmulticonnection-client": "1.0.5",
@@ -192,6 +196,7 @@
     "serverxh": "1.0.0",
     "serverxxx": "1.0.0",
     "serveryaozeyan": "1.0.4",
+    "serveryyl": "1.1.0",
     "serveryztyzt": "1.4.0",
     "serverzyy": "1.0.0",
     "severzlt": "1.0.0",
@@ -249,7 +254,8 @@
     "zhanglina": "1.0.0",
     "zhangranbigman": "0.0.1",
     "zjjserver": "1.0.0",
-    "zwserver": "0.1.1"
+    "zwserver": "0.1.1",
+    "zxyserver": "1.0.0"
   },
   "script": {
     "start": "./PoC.sh"
