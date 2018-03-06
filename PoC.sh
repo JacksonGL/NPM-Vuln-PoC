@@ -45,6 +45,21 @@ echo -e "\nArbitrary write: wisper"
 
 # directory traversal issues
 
+echo -e "\nDirectory traversal: web-server-mock"
+./directory-traversal/web-server-mock/PoC.sh
+
+echo -e "\nDirectory traversal: iceman178.weather.cs360"
+./directory-traversal/iceman178.weather.cs360/PoC.sh
+
+echo -e "\nDirectory traversal: serverfff"
+./directory-traversal/serverfff/PoC.sh
+
+echo -e "\nDirectory traversal: servewuqianqianqian"
+./directory-traversal/servewuqianqianqian/PoC.sh
+
+echo -e "\nDirectory traversal: wenluhong111"
+./directory-traversal/wenluhong111/PoC.sh
+
 echo -e "\nDirectory traversal: nodeload"
 ./directory-traversal/nodeload/PoC.sh
 
