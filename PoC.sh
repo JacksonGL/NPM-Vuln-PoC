@@ -19,6 +19,9 @@ fi
 
 # arbitrary file overwrite issues
 
+echo -e "\nArbitrary write: terminal-share"
+./arbitrary-write/terminal-share/PoC.sh
+
 echo -e "\nArbitrary write: innomon"
 ./arbitrary-write/innomon/PoC.sh
 
@@ -44,6 +47,18 @@ echo -e "\nArbitrary write: wisper"
 ./arbitrary-write/wisper/PoC.sh
 
 # directory traversal issues
+
+echo -e "\nDirectory traversal: tmadserver"
+./directory-traversal/tmadserver/PoC.sh
+
+echo -e "\nDirectory traversal: rjpserver"
+./directory-traversal/rjpserver/PoC.sh
+
+echo -e "\nDirectory traversal: nodejs_liamgb"
+./directory-traversal/nodejs_liamgb/PoC.sh
+
+echo -e "\nDirectory traversal: lab6_agolotin"
+./directory-traversal/lab6_agolotin/PoC.sh
 
 echo -e "\nDirectory traversal: gyfserver"
 ./directory-traversal/gyfserver/PoC.sh
